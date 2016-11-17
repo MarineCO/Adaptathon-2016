@@ -1,6 +1,5 @@
 .accueil{
 	border: solid 1px black ;
-	
 }
 
 h1{
@@ -24,6 +23,7 @@ body{
 
 .content{
 	border : solid red 1px;
+
 }
 
 .tavern, .job, .dating, .eventTlse, .handicap, .prepareEntretien{
@@ -35,8 +35,12 @@ body{
 	margin-top : 5px;
 }
 
-a{
-	display: flex;
-	justify-content: flex-end;
-
+.title {
+	text-align: center;
+	padding: 30px;
+	border: black  solid 1px;
 }
+.ui.checkbox {
+	padding-top: 10px;
+}
+
