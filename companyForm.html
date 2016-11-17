@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Inscription Recruteur</title>
+	<link rel="stylesheet" href="node_modules/semantic-ui-css/semantic.min.css">
+</head>
+<body>
+	<div class="ui centered grid">
+		<div class="ui centered six wide column">
+			<form action="/" method="post" class="ui form">
+				<div class="required field">
+					<label for="last_name">Nom</label>
+					<input type="text" name="last_name" placeholder="Nom">
+				</div>
+				<div class="required field">
+					<label for="first_name">Prénom</label>
+					<input type="text" name="first_name" placeholder="Prénom">
+				</div>
+				<div class="required field">
+					<label for="wanted_job">Poste Actuel</label>
+					<input type="text" name="wanted_job" placeholder="Consultant Agence d'Intérim, Directrice Ressources Humaines... ">
+				</div>
+				<div class="field">
+					<label for="company">Entreprise</label>
+					<input type="text" name="company" placeholder="Nom de l'entreprise">
+				</div>
+				<div class="required field">
+					<label for="description">Description</label>
+					<textarea name="description" id="description" cols="30" rows="5" placeholder="Expliquez votre projet professionnel en quelques phrases."></textarea>
+				</div>
+				<div class="required field"><label>Compétences</label></div>
+				<div class="grouped field">
+					<div class="ui checkbox">
+						<div class="checkbox" name=""></div>
+						<label for="">Adaptabilité</label>
+					</div>
+					<div class="ui checkbox">
+						<div class="checkbox" name=""></div>
+						<label for="">Prise de Parole en Public</label>
+					</div>
+					<div class="ui checkbox">
+						<div class="checkbox" name=""></div>
+						<label for="">Esprit d'équipe</label>
+					</div>
+					<div class="ui checkbox">
+						<div class="checkbox" name=""></div>
+						<label for="">Autonomie</label>
+					</div>
+					<div class="ui checkbox">
+						<div class="checkbox" name=""></div>
+						<label for="">Budgétisation</label>
+					</div>
+					<div class="ui checkbox">
+						<div class="checkbox" name=""></div>
+						<label for="">Comptabilité</label>
+					</div>
+					<div class="ui checkbox">
+						<div class="checkbox" name=""></div>
+						<label for="">Management</label>
+					</div>
+				</div>
+				<div class="required field"><label for="grade">Diplômes</label></div>
+				<div class="grouped field">
+					<div class="ui radio checkbox">
+						<div class="radio"></div>
+						<label for="">Sans diplôme</label>
+					</div>
+					<div class="ui radio checkbox">
+						<div class="radio"></div>
+						<label for="">CAP</label>
+					</div>
+					<div class="ui radio checkbox">
+						<div class="radio"></div>
+						<label for="">BEP</label>
+					</div>
+					<div class="ui radio checkbox">
+						<div class="radio"></div>
+						<label for="">Bac</label>
+					</div>
+					<div class="ui radio checkbox">
+						<div class="radio"></div>
+						<label for="">Bac +2</label>
+					</div>
+					<div class="ui radio checkbox">
+						<div class="radio"></div>
+						<label for="">Bac +3</label>
+					</div>
+					<div class="ui radio checkbox">
+						<div class="radio"></div>
+						<label for="">Bac +5</label>
+					</div>
+					<div class="ui radio checkbox">
+						<div class="radio"></div>
+						<label for="">Bac +8</label>
+					</div>
+					<input type="text" name="grade1" placeholder="(BTS Ergonomie, Master Finances Publiques...)">
+				</div>
+				<button class="ui green button" type="submit">Enregistrer mon profil</button>
+			</form>
+		</div>
+	</div>
+	
+</body>
+</html>
