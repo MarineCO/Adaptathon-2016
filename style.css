@@ -1,0 +1,12 @@
+.accueil{
+	border: solid 1px black ;
+	background-color: blue ; 
+}
+
+h1{
+	text-align: center ;
+}
+
+.body1, .body2, .body3{
+	border : solid red 1px;
+}
