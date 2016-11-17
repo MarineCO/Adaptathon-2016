@@ -1,6 +1,6 @@
 .accueil{
 	border: solid 1px black ;
-	background-color: blue ; 
+	
 }
 
 h1{
@@ -9,4 +9,18 @@ h1{
 
 .body1, .body2, .body3{
 	border : solid red 1px;
+}
+
+#search{
+	margin-left: 875px;
+}
+
+body{
+	margin : 0 ;
+	padding : 0 ;
+}
+
+.content{
+	border : solid red 1px;
+	height: 300px;
 }
