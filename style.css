@@ -1,3 +1,28 @@
+.accueil{
+	border: solid 1px black ;
+}
+
+h1{
+	text-align: center ;
+}
+
+.body1, .body2, .body3{
+	border : solid red 1px;
+}
+
+#search{
+	margin-left: 875px;
+}
+
+body{
+	margin : 0 ;
+	padding : 0 ;
+}
+
+.content{
+	border : solid red 1px;
+	height: 300px;
+}
 .title {
 	text-align: center;
 	padding: 30px;

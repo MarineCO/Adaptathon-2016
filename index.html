@@ -2,234 +2,30 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Rechercher des compétences</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/semantic.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+	<title>Forum</title>
 </head>
 <body>
-
-	<!-- DROPDOWN FILTER -->
-
-	<h1 class="title">Filtrer vos profils </h1>
-
-	<div class="ui equal width center aligned padded grid">
-		
-		
-		<div class="ui multiple selection dropdown">
-			<input name="gender" type="hidden" value="0,1">
-			<i class="dropdown icon"></i>
-			<div class="default text">Poste à pourvoir</div>
-			<div class="menu">
-				<div class="item" data-value="0">Chef de Projet</div>
-				<div class="item" data-value="1">Commercial</div>
-				<div class="item" data-value="2">Assistante de direction</div>
-				<div class="item" data-value="3">Chargé de développement</div>
-			</div>
-		</div>
-		
-		<div class="ui multiple selection dropdown">
-			<input name="gender" type="hidden" value="0,1">
-			<i class="dropdown icon"></i>
-			<div class="default text">Secteur d'activité</div>
-			<div class="menu">
-				<div class="item" data-value="0">Marketing</div>
-				<div class="item" data-value="1">Communication</div>
-				<div class="item" data-value="2">Informatique</div>
-				<div class="item" data-value="3">Logistique</div>
-				<div class="item" data-value="4">BTP</div>
-				<div class="item" data-value="5">Commerce</div>
-				<div class="item" data-value="6">Banque/Assurance</div>
-			</div>
-		</div>
-		
-		<div class="ui multiple selection dropdown">
-			<input name="gender" type="hidden" value="0,1">
-			<i class="dropdown icon"></i>
-			<div class="default text">Expérience</div>
-			<div class="menu">
-				<div class="item" data-value="0">0 à 1 an</div>
-				<div class="item" data-value="1">1 à 3 ans</div>
-				<div class="item" data-value="2">3 à 6 ans</div>
-				<div class="item" data-value="3">6 à 10 ans</div>
-				<div class="item" data-value="3">+ de 10 ans</div>
-			</div>
-		</div>
-
-		<div class="ui multiple selection dropdown">
-			<input name="gender" type="hidden" value="0,1">
-			<i class="dropdown icon"></i>
-			<div class="default text">Compétences</div>
-			<div class="menu">
-				<div class="item" data-value="0">??</div>
-				<div class="item" data-value="1">??</div>
-				<div class="item" data-value="2">??</div>
-				<div class="item" data-value="3">??</div>
-			</div>
-		</div>
-
-		<div class="ui checkbox">
-			<label for="rqth">RQTH</label>
-			<input id="rqth" type="checkbox" name="example">
-		</div>
-		
-		<div class="ui button" id="submit">
-			Valider
-		</div>
-
-		<div class="ui button" id="reset">
-			Nouvelle recherche
-		</div>
+	<div class="accueil">
+	<label for="search"></label>
+	<input type="text" id="search" placeholder="search...">
+		<h1>Bienvenue sur le forum !</h1>
 	</div>
-
-	<br></br>
-
-	<!-- CARDS -->
-
-	<div class="ui two cards">
-
-		<div class="card">
-			<div class="content">
-				<img class="right floated tiny ui image" src="http://placehold.it/150x150"/>
-				<div class="header">
-					Poste à pourvoir
-				</div>
-				<div class="meta">
-					Secteur d'activité
-				</div>
-				<div class="description">
-					Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem error ut officiis perspiciatis dicta, alias, sapiente eveniet veniam adipisci! Id, facilis delectus harum dolor. Quam quaerat aspernatur debitis, possimus aliquam?
-				</div>
-			</div>
-			<div class="extra content">
-				<div class="extra content">
-					<div class="ui two buttons">
-						<div class="ui basic green button">En savoir plus</div>
-						<div class="ui basic blue button">Contacter</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="card">
-			<div class="content">
-				<img class="right floated tiny ui image" src="http://placehold.it/150x150"/>
-				<div class="header">
-					Poste à pourvoir
-				</div>
-				<div class="meta">
-					Secteur d'activité
-				</div>
-				<div class="description">
-					Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut voluptatem, voluptatibus expedita non suscipit laborum recusandae? Ipsum adipisci hic illo dicta repudiandae esse sint, doloribus eius consequuntur amet quis veritatis.
-				</div>
-			</div>
-			<div class="extra content">
-				<div class="extra content">
-					<div class="ui two buttons">
-						<div class="ui basic green button">En savoir plus</div>
-						<div class="ui basic blue button">Contacter</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="card">
-			<div class="content">
-				<img class="right floated tiny ui image" src="http://placehold.it/150x150"/>
-				<div class="header">
-					Poste à pourvoir
-				</div>
-				<div class="meta">
-					Secteur d'activité
-				</div>
-				<div class="description">
-					Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, amet reprehenderit obcaecati quae nostrum officiis iusto incidunt ex velit minima, dicta repellat, perspiciatis alias eveniet, voluptas saepe voluptatum praesentium repellendus!
-				</div>
-			</div>
-			<div class="extra content">
-				<div class="extra content">
-					<div class="ui two buttons">
-						<div class="ui basic green button">En savoir plus</div>
-						<div class="ui basic blue button">Contacter</div>
-					</div>
-				</div>
-			</div>
-		</div>	
-
-		<div class="card">
-			<div class="content">
-				<img class="right floated tiny ui image" src="http://placehold.it/150x150"/>
-				<div class="header">
-					Poste à pourvoir
-				</div>
-				<div class="meta">
-					Secteur d'activité
-				</div>
-				<div class="description">
-					Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, amet reprehenderit obcaecati quae nostrum officiis iusto incidunt ex velit minima, dicta repellat, perspiciatis alias eveniet, voluptas saepe voluptatum praesentium repellendus!
-				</div>
-			</div>
-			<div class="extra content">
-				<div class="extra content">
-					<div class="ui two buttons">
-						<div class="ui basic green button">En savoir plus</div>
-						<div class="ui basic blue button">Contacter</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="card">
-			<div class="content">
-				<img class="right floated tiny ui image" src="http://placehold.it/150x150"/>
-				<div class="header">
-					Poste à pourvoir
-				</div>
-				<div class="meta">
-					Secteur d'activité
-				</div>
-				<div class="description">
-					Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, amet reprehenderit obcaecati quae nostrum officiis iusto incidunt ex velit minima, dicta repellat, perspiciatis alias eveniet, voluptas saepe voluptatum praesentium repellendus!
-				</div>
-			</div>
-			<div class="extra content">
-				<div class="extra content">
-					<div class="ui two buttons">
-						<div class="ui basic green button">En savoir plus</div>
-						<div class="ui basic blue button">Contacter</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="card">
-			<div class="content">
-				<img class="right floated tiny ui image" src="http://placehold.it/150x150"/>
-				<div class="header">
-					Poste à pourvoir
-				</div>
-				<div class="meta">
-					Secteur d'activité
-				</div>
-				<div class="description">
-					Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, amet reprehenderit obcaecati quae nostrum officiis iusto incidunt ex velit minima, dicta repellat, perspiciatis alias eveniet, voluptas saepe voluptatum praesentium repellendus!
-				</div>
-			</div>
-			<div class="extra content">
-				<div class="extra content">
-					<div class="ui two buttons">
-						<div class="ui basic green button">En savoir plus</div>
-						<div class="ui basic blue button">Contacter</div>
-					</div>
-				</div>
-			</div>
-		</div>
+	<div class="body1">
+		<p> <i class="fa fa-file"> </i> Présentation</p>
+	</div>
+	<div class="body2">
+		<p><i class="fa fa-warning"> </i> Règles du forum</p>
+	</div>
+	<div class="content">
+		<p><i class="fa fa-envelope"> </i> Sujets</p>
 
 	</div>
 	
 
-	<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
-	<script type="text/javascript" src="node_modules/semantic-ui/dist/semantic.js"></script>
-	<script type="text/javascript" src="search.js"></script>
+
+
+
 </body>
 </html>
