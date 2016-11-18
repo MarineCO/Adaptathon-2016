@@ -1,0 +1,43 @@
+#container {
+	width: 60%;
+	margin: 50px auto;
+	text-align: center;
+}
+
+
+/* Header */
+
+.imgHeaderBloc {
+	display: inline-block;
+	width: 100px;
+}
+
+.headerBloc {
+	width: 400px;
+	display: inline-block;
+	text-align: left;
+	margin: 0 50px;
+}
+
+/* Cartes jobs */
+
+#cardsJobs {
+	text-align: center;
+}
+
+/* Contact */
+
+.contact {
+	margin-top: 20px;
+	text-decoration-style: bold;
+}
+
+.contact > .ui.basic.buttons > .ui.button > span {
+	text-decoration: bold;
+	font-size: 16px;
+}
+
+.contact > .ui.green.button > span {
+	text-decoration: bold;
+	font-size: 16px;
+}
