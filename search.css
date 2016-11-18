@@ -1,0 +1,12 @@
+.title {
+	text-align: center;
+	padding: 30px;
+	font-size: 35px;
+}
+.ui.checkbox {
+	padding-top: 10px;
+}
+.centerCards {
+	width: 60%;	
+	margin: 0 auto;
+}
