@@ -24,7 +24,7 @@ body{
 
 }
 
-.tavern, .job, .dating, .eventTlse, .handicap, .prepareEntretien{
+.tavern, .job, .dating, .eventTlse, .handicap, .prepareEntretien{ 
 	border : solid red 1px;
 	height: 75px;
 	display: flex;
