@@ -1,0 +1,19 @@
+
+#container {
+	width: 60%;
+	margin: 50px auto;
+	text-align: center;
+}
+
+/* Fil de discussion */
+.ten.wide.column {
+	text-align: left;
+}
+
+form {
+	text-align: right;
+}
+
+.ui.vertical.menu {
+	height: 700px;
+}

@@ -8,6 +8,7 @@
 <body>
 	<div class="ui centered grid">
 		<div class="ui centered six wide column">
+		<div class="ui header">Créer mon Profil</div>
 			<form action="/" method="post" class="ui form">
 				<div class="required field">
 					<label for="last_name">Nom</label>
@@ -27,15 +28,15 @@
 				</div>
 				<div class="required field"><label>Statut</label></div>
 				<div class="required fields">
-					<div class="ui radio checkbox">
+					<div class="ui radio checkbox" style="padding: 0 15px;">
 						<div class="radio"></div>
 						<label for="">En poste</label>
 					</div>
-					<div class="ui radio checkbox">
+					<div class="ui radio checkbox" style="padding: 0 15px;">
 						<div class="radio"></div>
 						<label for="">En recherche d'Emploi</label>
 					</div>
-					<div class="ui radio checkbox">
+					<div class="ui radio checkbox" style="padding: 0 15px;">
 						<div class="radio"></div>
 						<label for="">En veille</label>
 					</div>
@@ -46,66 +47,69 @@
 				</div>
 				<div class="required field"><label>Compétences</label></div>
 				<div class="required grouped fields">
-					<div class="ui checkbox">
+					<div class="ui checkbox" style="padding: 5px 15px;">
 						<div class="checkbox" name=""></div>
 						<label for="">Adaptabilité</label>
 					</div>
-					<div class="ui checkbox">
+					<div class="ui checkbox" style="padding: 5px 15px;">
 						<div class="checkbox" name=""></div>
 						<label for="">Prise de Parole en Public</label>
 					</div>
-					<div class="ui checkbox">
+					<div class="ui checkbox" style="padding: 5px 15px;">
 						<div class="checkbox" name=""></div>
 						<label for="">Esprit d'équipe</label>
 					</div>
-					<div class="ui checkbox">
+					<div class="ui checkbox" style="padding: 5px 15px;">
 						<div class="checkbox" name=""></div>
 						<label for="">Autonomie</label>
 					</div>
-					<div class="ui checkbox">
+					<div class="ui checkbox" style="padding: 5px 15px;">
 						<div class="checkbox" name=""></div>
 						<label for="">Budgétisation</label>
 					</div>
-					<div class="ui checkbox">
+					<div class="ui checkbox" style="padding: 5px 15px;">
 						<div class="checkbox" name=""></div>
 						<label for="">Comptabilité</label>
 					</div>
-					<div class="ui checkbox">
+					<div class="ui checkbox" style="padding: 5px 15px;">
 						<div class="checkbox" name=""></div>
 						<label for="">Management</label>
+					</div>
+					<div class="field">
+						<input type="text" placeholder="Ajouter une Compétence">
 					</div>
 				</div>
 				<div class="required field"><label for="grade">Diplômes</label></div>
 				<div class="grouped field">
-					<div class="ui radio checkbox">
+					<div class="ui radio checkbox" style="padding: 5px;">
 						<div class="radio"></div>
 						<label for="">Sans diplôme</label>
 					</div>
-					<div class="ui radio checkbox">
+					<div class="ui radio checkbox" style="padding: 5px;">
 						<div class="radio"></div>
 						<label for="">CAP</label>
 					</div>
-					<div class="ui radio checkbox">
+					<div class="ui radio checkbox" style="padding: 5px;">
 						<div class="radio"></div>
 						<label for="">BEP</label>
 					</div>
-					<div class="ui radio checkbox">
+					<div class="ui radio checkbox" style="padding: 5px;">
 						<div class="radio"></div>
 						<label for="">Bac</label>
 					</div>
-					<div class="ui radio checkbox">
+					<div class="ui radio checkbox" style="padding: 5px;">
 						<div class="radio"></div>
 						<label for="">Bac +2</label>
 					</div>
-					<div class="ui radio checkbox">
+					<div class="ui radio checkbox" style="padding: 5px;">
 						<div class="radio"></div>
 						<label for="">Bac +3</label>
 					</div>
-					<div class="ui radio checkbox">
+					<div class="ui radio checkbox" style="padding: 5px;">
 						<div class="radio"></div>
 						<label for="">Bac +5</label>
 					</div>
-					<div class="ui radio checkbox">
+					<div class="ui radio checkbox" style="padding: 5px;">
 						<div class="radio"></div>
 						<label for="">Bac +8</label>
 					</div>
@@ -127,14 +131,27 @@
 					<input type="text" name="" placeholder="Durée">
 					<input type="text" name="" placeholder="Entreprise">
 				</div>
+				<div class="row" style="margin-bottom: 10px;">
+					<button class="ui primary button" name="cv">Ajouter mon CV</button>
+					<label for="cv">*en PDF</label>
+				</div>
 				<div class="field">
 					<label for="">Aménagement de poste</label>
 					<input type="text" name="" placeholder="Aménagement de poste">
 				</div>
-				<button class="ui green button" type="submit">Enregistrer mon profil</button>
+				<div class="ui checkbox" style="margin-bottom: 15px;">
+					<div class="checkbox"></div>
+					<label for="">RQTH</label>
+				</div>
+				<div class="row">
+					<button class="ui green button" type="submit">Enregistrer mon profil</button>
+				</div>
 			</form>
 		</div>
 	</div>
 	
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/semantic-ui-css/semantic.min.js"></script>
+	<script src="form.js"></script>
 </body>
 </html>

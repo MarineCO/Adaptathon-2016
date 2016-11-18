@@ -3,20 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Rechercher des compétences</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="search.css">
 	<link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/semantic.css">
 </head>
 <body>
 
 	<!-- DROPDOWN FILTER -->
 
-	<h1 class="title">Filtrer vos profils </h1>
+	<h2 class="title">Sélectionner vos critères de recherche</h2>
+
+	<br>
+	<br>
+	<br>
 
 	<div class="ui equal width center aligned padded grid">
 		
-		
 		<div class="ui multiple selection dropdown">
-			<input name="gender" type="hidden" value="0,1">
+			<input name="poste" type="hidden" value="0,1">
 			<i class="dropdown icon"></i>
 			<div class="default text">Poste à pourvoir</div>
 			<div class="menu">
@@ -28,7 +31,7 @@
 		</div>
 		
 		<div class="ui multiple selection dropdown">
-			<input name="gender" type="hidden" value="0,1">
+			<input name="poste" type="hidden" value="0,1">
 			<i class="dropdown icon"></i>
 			<div class="default text">Secteur d'activité</div>
 			<div class="menu">
@@ -43,7 +46,7 @@
 		</div>
 		
 		<div class="ui multiple selection dropdown">
-			<input name="gender" type="hidden" value="0,1">
+			<input name="poste" type="hidden" value="0,1">
 			<i class="dropdown icon"></i>
 			<div class="default text">Expérience</div>
 			<div class="menu">
@@ -56,7 +59,7 @@
 		</div>
 
 		<div class="ui multiple selection dropdown">
-			<input name="gender" type="hidden" value="0,1">
+			<input name="poste" type="hidden" value="0,1">
 			<i class="dropdown icon"></i>
 			<div class="default text">Compétences</div>
 			<div class="menu">
@@ -81,152 +84,175 @@
 		</div>
 	</div>
 
-	<br></br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 
 	<!-- CARDS -->
 
-	<div class="ui two cards">
+	<div class="centerCards">
+		<div class="ui one cards">
 
-		<div class="card">
-			<div class="content">
-				<img class="right floated tiny ui image" src="http://placehold.it/150x150"/>
-				<div class="header">
-					Poste à pourvoir
+			<div class="card">
+				<div class="content">
+					<img class="right floated tiny ui image" src="jenny.jpg"/>
+					<div class="header">
+						Muriel THOMS
+					</div>
+					<div class="poste">
+						Développeuse Web
+					</div>
+					<div class="meta">
+						Secteur d'activité
+					</div>
+					<div class="description">
+						Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem error ut officiis perspiciatis dicta, alias, sapiente eveniet veniam adipisci! Id, facilis delectus harum dolor. Quam quaerat aspernatur debitis, possimus aliquam?
+					</div>
 				</div>
-				<div class="meta">
-					Secteur d'activité
-				</div>
-				<div class="description">
-					Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem error ut officiis perspiciatis dicta, alias, sapiente eveniet veniam adipisci! Id, facilis delectus harum dolor. Quam quaerat aspernatur debitis, possimus aliquam?
-				</div>
-			</div>
-			<div class="extra content">
 				<div class="extra content">
-					<div class="ui two buttons">
-						<div class="ui basic green button">En savoir plus</div>
-						<div class="ui basic blue button">Contacter</div>
+					<div class="extra content">
+						<div class="ui two buttons">
+							<div class="ui basic green button">En savoir plus</div>
+							<div class="ui basic blue button">Contacter</div>
+						</div>
 					</div>
 				</div>
 			</div>
+
+			<div class="card">
+				<div class="content">
+					<img class="right floated tiny ui image" src="molly.png"/>
+					<div class="header">
+						Molly LOLI
+					</div>
+					<div class="poste">
+						Secrétaire de Direction 
+					</div>
+					<div class="meta">
+						Secteur d'activité
+					</div>
+					<div class="description">
+						Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut voluptatem, voluptatibus expedita non suscipit laborum recusandae? Ipsum adipisci hic illo dicta repudiandae esse sint, doloribus eius consequuntur amet quis veritatis.
+					</div>
+				</div>
+				<div class="extra content">
+					<div class="extra content">
+						<div class="ui two buttons">
+							<div class="ui basic green button">En savoir plus</div>
+							<div class="ui basic blue button">Contacter</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="content">
+					<img class="right floated tiny ui image" src="matthew.png"/>
+					<div class="header">
+						Matthew DUBOIS
+					</div>
+					<div class="poste">
+						Chef de Projet 
+					</div>
+					<div class="meta">
+						Secteur d'activité
+					</div>
+					<div class="description">
+						Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, amet reprehenderit obcaecati quae nostrum officiis iusto incidunt ex velit minima, dicta repellat, perspiciatis alias eveniet, voluptas saepe voluptatum praesentium repellendus!
+					</div>
+				</div>
+				<div class="extra content">
+					<div class="extra content">
+						<div class="ui two buttons">
+							<div class="ui basic green button">En savoir plus</div>
+							<div class="ui basic blue button">Contacter</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+
+			<div class="card">
+				<div class="content">
+					<img class="right floated tiny ui image" src="matthew.png"/>
+					<div class="header">
+						John Doe
+					</div>
+					<div class="poste">
+						Commercial
+					</div>
+					<div class="meta">
+						Secteur d'activité
+					</div>
+					<div class="description">
+						Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, amet reprehenderit obcaecati quae nostrum officiis iusto incidunt ex velit minima, dicta repellat, perspiciatis alias eveniet, voluptas saepe voluptatum praesentium repellendus!
+					</div>
+				</div>
+				<div class="extra content">
+					<div class="extra content">
+						<div class="ui two buttons">
+							<div class="ui basic green button">En savoir plus</div>
+							<div class="ui basic blue button">Contacter</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="content">
+					<img class="right floated tiny ui image" src="elyse.png"/>
+					<div class="header">
+						Lila GEORGE
+					</div>
+					<div class="poste">
+						Attaché de presse
+					</div>
+					<div class="meta">
+						Secteur d'activité
+					</div>
+					<div class="description">
+						Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, amet reprehenderit obcaecati quae nostrum officiis iusto incidunt ex velit minima, dicta repellat, perspiciatis alias eveniet, voluptas saepe voluptatum praesentium repellendus!
+					</div>
+				</div>
+				<div class="extra content">
+					<div class="extra content">
+						<div class="ui two buttons">
+							<div class="ui basic green button">En savoir plus</div>
+							<div class="ui basic blue button">Contacter</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="content">
+					<img class="right floated tiny ui image" src="molly.png"/>
+					<div class="header">
+						Julie FONTE
+					</div>
+					<div class="poste">
+						Directeur marketing
+					</div>
+					<div class="meta">
+						Secteur d'activité
+					</div>
+					<div class="description">
+						Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, amet reprehenderit obcaecati quae nostrum officiis iusto incidunt ex velit minima, dicta repellat, perspiciatis alias eveniet, voluptas saepe voluptatum praesentium repellendus!
+					</div>
+				</div>
+				<div class="extra content">
+					<div class="extra content">
+						<div class="ui two buttons">
+							<div class="ui basic green button">En savoir plus</div>
+							<div class="ui basic blue button">Contacter</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
-
-		<div class="card">
-			<div class="content">
-				<img class="right floated tiny ui image" src="http://placehold.it/150x150"/>
-				<div class="header">
-					Poste à pourvoir
-				</div>
-				<div class="meta">
-					Secteur d'activité
-				</div>
-				<div class="description">
-					Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut voluptatem, voluptatibus expedita non suscipit laborum recusandae? Ipsum adipisci hic illo dicta repudiandae esse sint, doloribus eius consequuntur amet quis veritatis.
-				</div>
-			</div>
-			<div class="extra content">
-				<div class="extra content">
-					<div class="ui two buttons">
-						<div class="ui basic green button">En savoir plus</div>
-						<div class="ui basic blue button">Contacter</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="card">
-			<div class="content">
-				<img class="right floated tiny ui image" src="http://placehold.it/150x150"/>
-				<div class="header">
-					Poste à pourvoir
-				</div>
-				<div class="meta">
-					Secteur d'activité
-				</div>
-				<div class="description">
-					Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, amet reprehenderit obcaecati quae nostrum officiis iusto incidunt ex velit minima, dicta repellat, perspiciatis alias eveniet, voluptas saepe voluptatum praesentium repellendus!
-				</div>
-			</div>
-			<div class="extra content">
-				<div class="extra content">
-					<div class="ui two buttons">
-						<div class="ui basic green button">En savoir plus</div>
-						<div class="ui basic blue button">Contacter</div>
-					</div>
-				</div>
-			</div>
-		</div>	
-
-		<div class="card">
-			<div class="content">
-				<img class="right floated tiny ui image" src="http://placehold.it/150x150"/>
-				<div class="header">
-					Poste à pourvoir
-				</div>
-				<div class="meta">
-					Secteur d'activité
-				</div>
-				<div class="description">
-					Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, amet reprehenderit obcaecati quae nostrum officiis iusto incidunt ex velit minima, dicta repellat, perspiciatis alias eveniet, voluptas saepe voluptatum praesentium repellendus!
-				</div>
-			</div>
-			<div class="extra content">
-				<div class="extra content">
-					<div class="ui two buttons">
-						<div class="ui basic green button">En savoir plus</div>
-						<div class="ui basic blue button">Contacter</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="card">
-			<div class="content">
-				<img class="right floated tiny ui image" src="http://placehold.it/150x150"/>
-				<div class="header">
-					Poste à pourvoir
-				</div>
-				<div class="meta">
-					Secteur d'activité
-				</div>
-				<div class="description">
-					Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, amet reprehenderit obcaecati quae nostrum officiis iusto incidunt ex velit minima, dicta repellat, perspiciatis alias eveniet, voluptas saepe voluptatum praesentium repellendus!
-				</div>
-			</div>
-			<div class="extra content">
-				<div class="extra content">
-					<div class="ui two buttons">
-						<div class="ui basic green button">En savoir plus</div>
-						<div class="ui basic blue button">Contacter</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="card">
-			<div class="content">
-				<img class="right floated tiny ui image" src="http://placehold.it/150x150"/>
-				<div class="header">
-					Poste à pourvoir
-				</div>
-				<div class="meta">
-					Secteur d'activité
-				</div>
-				<div class="description">
-					Petite description personnelle du TH à développer ici. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, amet reprehenderit obcaecati quae nostrum officiis iusto incidunt ex velit minima, dicta repellat, perspiciatis alias eveniet, voluptas saepe voluptatum praesentium repellendus!
-				</div>
-			</div>
-			<div class="extra content">
-				<div class="extra content">
-					<div class="ui two buttons">
-						<div class="ui basic green button">En savoir plus</div>
-						<div class="ui basic blue button">Contacter</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
 	</div>
-	
 
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="node_modules/semantic-ui/dist/semantic.js"></script>
